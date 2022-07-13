@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>WebRTC practice</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+
+    <div class="center">
+        <div id="roleDiv">
+            <div class="column">
+                <button id="activateHostButton">I'll be the host</button>
+                <button id="activateGuestButton">I'll be the guest</button>
+            </div>
+        </div>
+
+        <div id="hostDiv" style="display: none">
+            <div class="column">
+                <h2>The offer has been copied to your clipboard.</h2>
+                <h2>1. Send it to the guest.</h2>
+                <h2>2. Copy their answer into your clipboard.</h2>
+                <h2>3. Paste their answer here:</h2>
+                <textarea id="answerTextarea"></textarea>
+            </div>
+        </div>
+
+        <div id="guestDiv" style="display: none">
+            <div class="column">
+                <h2>1. Copy the host's offer into your clipboard.</h2>
+                <h2>2. Paste their offer here:</h2>
+                <textarea id="offerTextarea"></textarea>
+                <h2>After pasting, your answer will be in your clipboard.</h2>
+                <h2>3. Send your answer to the host, and wait for them to connect.</h2>
+            </div>
+        </div>
+
+        <div id="chatDiv" style="display: none">
+            <div class="column">
+                <textarea id="chatLogTextarea" class="readonly" readonly></textarea>
+                <div class="row">
+                    <textarea id="outgoingTextarea"></textarea>
+                    <button id="sendButton">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="js/host.js" async></script>
+    <script src="js/guest.js" async></script>
+    <script src="js/chat.js" async></script>
+
+</body>
+
+</html>
