@@ -18,7 +18,17 @@ function ShowHostView() {
 }
 
 function GenerateOffer() {
-    const iceConfiguration = { iceServers: [{ urls: 'stun:stun1.l.google.com:19302' }] };
+    const iceConfiguration = {
+        iceServers: [{
+            urls: [
+                "stun:stun.l.google.com:19302",
+                "stun:stun1.l.google.com:19302",
+                "stun:stun2.l.google.com:19302",
+                "stun:stun3.l.google.com:19302",
+                "stun:stun4.l.google.com:19302",
+            ]
+        }]
+    };
     hostConnection = new RTCPeerConnection(iceConfiguration);
     hostConnection.onicecandidate = CopyOfferToClipboard;
 
