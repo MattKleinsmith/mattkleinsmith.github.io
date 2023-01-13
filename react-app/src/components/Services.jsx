@@ -4,33 +4,33 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "React",
+      desc: "",
       icon: "fas fa-palette",
     },
     {
       name: "Web Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "",
       icon: "fas fa-desktop",
     },
     {
       name: "UI/UX Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "",
       icon: "fas fa-pencil-ruler",
     },
     {
       name: "App Design & Develop",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "",
       icon: "fas fa-paint-brush",
     },
     {
       name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "",
       icon: "fas fa-chart-area",
     },
     {
       name: "SEO Marketing",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "",
       icon: "fas fa-bullhorn",
     },
   ];
@@ -49,7 +49,7 @@ const Services = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-white-50  opacity-1" : "text-light  opacity-4")
             }
           >
-            Services
+            Skills
           </h2>
           <p
             className={
@@ -57,7 +57,7 @@ const Services = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-white" : "text-dark")
             }
           >
-            What I Do?
+            What I work with
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>

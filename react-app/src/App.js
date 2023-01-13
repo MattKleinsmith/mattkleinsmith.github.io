@@ -5,7 +5,6 @@ import AboutUs from "./components/About";
 import Services from "./components/Services";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
-import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
@@ -75,26 +74,22 @@ function App() {
               darkTheme={darkTheme}
               handleNavClick={handleNavClick}
             ></Home>
-            <AboutUs
-              classicHeader={classicHeader}
-              darkTheme={darkTheme}
-            ></AboutUs>
             <Services
               classicHeader={classicHeader}
               darkTheme={darkTheme}
             ></Services>
-            <Resume
-              classicHeader={classicHeader}
-              darkTheme={darkTheme}
-            ></Resume>
             <Portfolio
               classicHeader={classicHeader}
               darkTheme={darkTheme}
             ></Portfolio>
-            <Testimonials
+            <AboutUs
               classicHeader={classicHeader}
               darkTheme={darkTheme}
-            ></Testimonials>
+            ></AboutUs>
+            <Resume
+              classicHeader={classicHeader}
+              darkTheme={darkTheme}
+            ></Resume>
             <Contact
               classicHeader={classicHeader}
               darkTheme={darkTheme}

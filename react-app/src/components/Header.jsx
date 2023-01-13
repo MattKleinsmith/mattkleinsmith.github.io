@@ -69,47 +69,13 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   style={{ cursor: "pointer" }}
                   activeClass="active"
                   spy
-                  to="about"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                  About Me
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
                   to="services"
                   onClick={(e) => {
                     e.preventDefault();
                     setIsNavModalClose(true);
                   }}
                 >
-                  What I Do
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
-                  to="resume"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                  Resume
+                  Skills
                 </Link>
               </li>
               <li className="nav-item">
@@ -137,13 +103,30 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   style={{ cursor: "pointer" }}
                   activeClass="active"
                   spy
-                  to="testimonial"
+                  to="about"
                   onClick={(e) => {
                     e.preventDefault();
                     setIsNavModalClose(true);
                   }}
                 >
-                  Testimonial
+                  About Me
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link "
+                  smooth
+                  duration={500}
+                  style={{ cursor: "pointer" }}
+                  activeClass="active"
+                  spy
+                  to="resume"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setIsNavModalClose(true);
+                  }}
+                >
+                  Resume
                 </Link>
               </li>
               <li className="nav-item">

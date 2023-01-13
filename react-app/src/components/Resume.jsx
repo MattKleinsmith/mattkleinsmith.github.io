@@ -43,33 +43,6 @@ const Resume = ({ classicHeader, darkTheme }) => {
     },
   ];
 
-  const skills = [
-    {
-      name: "Web Design",
-      percent: 65,
-    },
-    {
-      name: "HTML/CSS",
-      percent: 95,
-    },
-    {
-      name: "JavaScript",
-      percent: 80,
-    },
-    {
-      name: "React JS",
-      percent: 70,
-    },
-    {
-      name: "Angular Js",
-      percent: 60,
-    },
-    {
-      name: "Bootstrap",
-      percent: 99,
-    },
-  ];
-
   return (
     <section
       id="resume"
@@ -165,44 +138,6 @@ const Resume = ({ classicHeader, darkTheme }) => {
                 </div>
               ))}
           </div>
-        </div>
-        {/* My Skills */}
-        <h2
-          className={
-            "text-6 fw-600 mt-4 mb-4 " + (darkTheme ? "text-white" : "")
-          }
-        >
-          My Skills
-        </h2>
-        <div className="row gx-5">
-          {skills.length > 0 &&
-            skills.map((skill, index) => (
-              <div key={index} className="col-md-6">
-                <p
-                  className={
-                    " fw-500 text-start mb-2 " +
-                    (darkTheme ? "text-light" : "text-dark")
-                  }
-                >
-                  {skill.name}{" "}
-                  <span className="float-end">{skill.percent}%</span>
-                </p>
-                <div
-                  className={
-                    "progress progress-sm mb-4 " + (darkTheme ? "bg-dark" : "")
-                  }
-                >
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: skill.percent + "%" }}
-                    aria-valuenow={skill.percent}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  />
-                </div>
-              </div>
-            ))}
         </div>
         <div className="text-center mt-5">
           <a

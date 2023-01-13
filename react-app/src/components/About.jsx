@@ -38,7 +38,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I've worked mostly with React, Express, Flask (Python), and AWS, but I can learn any stack quickly; it's all data transforms at the end of the day.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I have a passion for fast apps. As a user and customer, I'd rather use a fast unstyled app, than a beautiful but sluggish app. This motivates me as an engineer to track down inefficiencies to enable beauty without making the user wait. I consider loading times to be errors.
+              I have a passion for fast apps. As a user and customer, I'd rather use a fast unstyled app, than a beautiful but sluggish app. This motivates me as an engineer to track down inefficiencies to enable beauty, without making the user wait. I consider loading times to be errors.
             </p>
           </div>
           {/* About me content end */}
@@ -108,6 +108,21 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Full-stack web apps
+                </p>
+              </div>
+            </div>
+            <div className="col-6 col-md-3">
+              <div className="featured-box text-center">
+                <h4
+                  className={
+                    "text-12  mb-0 " +
+                    (darkTheme ? "text-white-50" : "text-muted")
+                  }
+                >
+                  <span>2</span>
+                </h4>
+                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
+                  Video games
                 </p>
               </div>
             </div>
