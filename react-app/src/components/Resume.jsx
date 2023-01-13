@@ -1,5 +1,4 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
 
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
@@ -208,7 +207,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
         <div className="text-center mt-5">
           <a
             className="btn btn-outline-secondary rounded-pill shadow-none"
-            href={resumeFile}
+            href="https://ducksybucket.s3.amazonaws.com/Matthew+Kleinsmith+-+Resume.pdf"
             download
           >
             Download CV

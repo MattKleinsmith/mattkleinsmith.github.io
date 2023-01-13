@@ -34,7 +34,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   I'm a full-stack developer
                 </h2>
                 <p className="text-5 text-light mb-4">
-                  based in Los Angeles, California.
+                  based in Kansas City, Missouri.
                 </p>
                 <a
                   href="#contact"
