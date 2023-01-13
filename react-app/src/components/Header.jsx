@@ -24,13 +24,13 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             <span className="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
               <img
                 className="img-fluid rounded-pill d-block"
-                src="images/profile.jpg"
-                title="I'm Simone"
+                src="images/pfp.png"
+                title="I'm Matt"
                 alt="profile"
               />
             </span>
             <h1 className="text-5 text-white text-center mb-0 d-lg-block">
-              Simone Olivia
+              Matt Kleinsmith
             </h1>
           </Link>
           {/* Logo End */}
