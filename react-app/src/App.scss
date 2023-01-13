@@ -4,10 +4,15 @@
     gap: 7px;
 }
 
+.discord-parent {
+    margin-top: 20px;
+}
+
 .discord {
     background-image: url("https://ducksybucket.s3.amazonaws.com/discord.png");
     background-size: 22px;
     height: 22px;
     width: 22px;
     filter: invert(76%) sepia(47%) saturate(6602%) hue-rotate(122deg) brightness(108%) contrast(75%);
+    vertical-align: middle;
 }

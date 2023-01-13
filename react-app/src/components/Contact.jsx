@@ -95,11 +95,11 @@ const Contact = ({ classicHeader, darkTheme }) => {
               </span>
               925-457-2959
             </p>
-            <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
-              <div className="flex-center">
-                <i className="discord" />
-                <div>MattK#9804</div>
-              </div>
+            <p className={"text-3 mb-3 " + (darkTheme ? "text-light" : "")}>
+              <span className="text-primary text-4 me-2 discord-parent">
+                <i className="fas discord" />
+              </span>
+              MattK#9804
             </p>
             <h2
               className={
@@ -146,7 +146,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "text-white" : "")
               }
             >
-              Send us a note
+              message me
             </h2>
             <form
               className={darkTheme ? "form-dark" : ""}
@@ -181,7 +181,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     className="form-control"
                     rows={5}
                     required
-                    placeholder="Tell us more about your needs........"
+                    placeholder="Message"
                     defaultValue={""}
                   />
                 </div>
