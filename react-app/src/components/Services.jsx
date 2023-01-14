@@ -1,39 +1,7 @@
 import React from "react";
 
 const Services = ({ classicHeader, darkTheme }) => {
-  // services details
-  const services = [
-    {
-      name: "React",
-      desc: "",
-      icon: "fas fa-palette",
-    },
-    {
-      name: "Web Design",
-      desc: "",
-      icon: "fas fa-desktop",
-    },
-    {
-      name: "UI/UX Design",
-      desc: "",
-      icon: "fas fa-pencil-ruler",
-    },
-    {
-      name: "App Design & Develop",
-      desc: "",
-      icon: "fas fa-paint-brush",
-    },
-    {
-      name: "Business Analysis",
-      desc: "",
-      icon: "fas fa-chart-area",
-    },
-    {
-      name: "SEO Marketing",
-      desc: "",
-      icon: "fas fa-bullhorn",
-    },
-  ];
+  const skills = ["python", "javascript", "react", "redux", "postgres", "node", "aws", "flask", "express", "sequelize", "sqlalchemy", "docker", "linux", "ubuntu"];
 
   return (
     <section
@@ -65,30 +33,10 @@ const Services = ({ classicHeader, darkTheme }) => {
         {/* content start */}
         <div className="row">
           <div className="col-lg-11 mx-auto">
-            <div className="row">
-              {services.length > 0 &&
-                services.map((service, index) => (
-                  <div className="col-md-6" key={index}>
-                    <div className="featured-box style-3 mb-5">
-                      <div
-                        className={
-                          "featured-box-icon text-primary  shadow-sm rounded " +
-                          (darkTheme ? "bg-dark-1" : "bg-white")
-                        }
-                      >
-                        <i className={service.icon} />
-                      </div>
-                      <h3 className={darkTheme ? "text-white" : ""}>
-                        {service.name}
-                      </h3>
-                      <p
-                        className={"mb-0 " + (darkTheme ? "text-white-50" : "")}
-                      >
-                        {service.desc}
-                      </p>
-                    </div>
-                  </div>
-                ))}
+            <div className="skills-flex">
+              {skills.map((skill, index) => (
+                <i className={skill} />
+              ))}
             </div>
           </div>
         </div>
