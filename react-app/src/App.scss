@@ -38,8 +38,51 @@
 .postgres {
     background-image: url("../public/images/postgres.png");
     background-size: 138px;
+    height: 138px;
+    width: 135px;
+}
+
+.node {
+    background-image: url("../public/images/node.png");
+    background-size: 138px;
     height: 135px;
     width: 135px;
+    filter: invert(70%) sepia(48%) saturate(691%) hue-rotate(41deg) brightness(97%) contrast(87%);
+}
+
+.aws {
+    background-image: url("../public/images/aws.png");
+    background-size: 256px;
+    height: 128px;
+    width: 256px;
+}
+
+.flask {
+    background-image: url("../public/images/flask.png");
+    background-size: 110px;
+    height: 135px;
+    width: 110px;
+}
+
+.express {
+    background-image: url("../public/images/express.png");
+    background-size: 128px;
+    height: 128px;
+    width: 128px;
+}
+
+.sequelize {
+    background-image: url("../public/images/sequelize.png");
+    background-size: 100px;
+    height: 140px;
+    width: 100px;
+}
+
+.sqlalchemy {
+    background-image: url("../public/images/sqlalchemy.png");
+    background-size: 256px;
+    height: 128px;
+    width: 256px;
 }
 
 .skills-flex {
