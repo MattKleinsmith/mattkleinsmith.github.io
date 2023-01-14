@@ -1,72 +1,33 @@
-import React, { useEffect, useRef, useState } from "react";
-import Isotope from "isotope-layout";
-import ProjectDetailsModal from "./ProjectDetailsModal";
 const Portfolio = ({ classicHeader, darkTheme }) => {
-  // init one ref to store the future isotope object
-  const isotope = useRef();
-  // store the filter keyword in a state
-  const [filterKey, setFilterKey] = useState("*");
-  const [imagesLoaded, setimagesLoaded] = useState(0);
-  const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
-  const filters = {
-    // DESIGN: "Desing",
-    // BRAND: "Brand",
-    // PHOTOS: "Photos",
-  };
-
-  const projectsData = [
-    {
-      title: "Project Title 1",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-1.jpg",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
-      ],
-      categories: [filters.BRAND],
-    }
-  ];
-
-  // initialize an Isotope object with configs
-  useEffect(() => {
-    isotope.current = new Isotope(".portfolio-filter", {
-      itemSelector: ".filter-item",
-      layoutMode: "masonry",
-    });
-
-    // cleanup
-    return () => {
-      isotope.current.destroy();
-    };
-  }, []);
-
-  // handling filter key change
-  useEffect(() => {
-    if (imagesLoaded) {
-      filterKey === "*"
-        ? isotope.current.arrange({ filter: `*` })
-        : isotope.current.arrange({ filter: `.${filterKey}` });
-    }
-  }, [filterKey, imagesLoaded]);
-
-  const handleFilterKeyChange = (key) => () => setFilterKey(key);
+  // const projectsData = [
+  //   {
+  //     title: "Project Title 1",
+  //     projectInfo:
+  //       "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+  //     client: "Ruby Clinton",
+  //     technologies: "iOS, HTML5, CSS3, PHP, Java",
+  //     industry: "Art & Design",
+  //     date: "July 16, 2019",
+  //     url: {
+  //       name: "www.example.com",
+  //       link: "https://www.example.com",
+  //     },
+  //     socialLinks: {
+  //       facebook: "http://www.facebook.com/",
+  //       twitter: "http://www.twitter.com/",
+  //       google: "http://www.google.com/",
+  //       instagram: "http://www.instagram.com/",
+  //       mail: "mailto:example@gmail.com",
+  //     },
+  //     thumbImage: "images/projects/project-1.jpg",
+  //     sliderImages: [
+  //       "images/projects/project-1.jpg",
+  //       "images/projects/project-5.jpg",
+  //     ],
+  //     categories: [],
+  //   }
+  // ];
 
   return (
     <>
@@ -97,82 +58,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             </p>
           </div>
           {/* Heading end*/}
-          {/* Filter Menu */}
-          <ul
-            className={
-              "portfolio-menu nav nav-tabs justify-content-center border-bottom-0 mb-5 " +
-              (darkTheme ? "nav-light" : "")
-            }
-          >
-            {Object.keys(filters).map((oneKey, i) => (
-              <li className="nav-item" key={i}>
-                <button
-                  className={
-                    "nav-link " +
-                    (filterKey === filters[oneKey] ? "active" : "")
-                  }
-                  onClick={handleFilterKeyChange(filters[oneKey])}
-                >
-                  {filters[oneKey]}
-                </button>
-              </li>
-            ))}
-          </ul>
-          {/* Filter Menu end */}
-          <div className="portfolio popup-ajax-gallery">
-            <div className="row portfolio-filter filter-container g-4">
-              {projectsData.length > 0 &&
-                projectsData.map((project, index) => (
-                  <div
-                    className={
-                      "col-sm-6 col-lg-4 filter-item " +
-                      project.categories.join(" ")
-                    }
-                    key={index}
-                  >
-                    <div className="portfolio-box rounded">
-                      <div className="portfolio-img rounded">
-                        <img
-                          onLoad={() => {
-                            setimagesLoaded(imagesLoaded + 1);
-                          }}
-                          className="img-fluid d-block portfolio-image"
-                          src={project.thumbImage}
-                          alt=""
-                        />
-                        <div className="portfolio-overlay">
-                          {/* eslint-disable-next-line*/}
-                          <a
-                            className="popup-ajax stretched-link"
-                            href=""
-                            onClick={() => {
-                              setSelectedProjectDetails(projectsData[index]);
-                            }}
-                            data-bs-toggle="modal"
-                            data-bs-target="#exampleModal"
-                          />
-                          <div className="portfolio-overlay-details">
-                            <h5 className="text-white fw-400">
-                              {project.title}
-                            </h5>
-                            <span className="text-light">Category</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-            </div>
-          </div>
         </div>
       </section>
-      <div className="project-details-modal">
-        {/* Modal */}
-        <ProjectDetailsModal
-          projectDetails={selectedProjectDetails}
-          darkTheme={darkTheme}
-        ></ProjectDetailsModal>
-      </div>
     </>
   );
 };

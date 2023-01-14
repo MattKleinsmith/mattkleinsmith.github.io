@@ -106,6 +106,22 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
+                  <span>1000+</span>
+                </h4>
+                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
+                  hours of experience
+                </p>
+              </div>
+            </div>
+            <div className="col-6 col-md-3">
+
+              <div className="featured-box text-center">
+                <h4
+                  className={
+                    "text-12  mb-0 " +
+                    (darkTheme ? "text-white-50" : "text-muted")
+                  }
+                >
                   <span>3</span>
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
