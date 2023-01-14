@@ -7,6 +7,12 @@
     vertical-align: middle;
 }
 
+.skills-flex {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
 .javascript {
     background-image: url("../public/images/javascript.png");
     background-size: 128px;
@@ -85,8 +91,30 @@
     width: 256px;
 }
 
-.skills-flex {
-    display: flex;
-    gap: 50px;
-    flex-wrap: wrap;
+.docker {
+    background-image: url("../public/images/docker.png");
+    background-size: 128px;
+    height: 128px;
+    width: 128px;
+}
+
+.linux {
+    background-image: url("../public/images/linux.png");
+    background-size: 108px;
+    height: 138px;
+    width: 110px;
+}
+
+.ubuntu {
+    background-image: url("../public/images/ubuntu.png");
+    background-size: 128px;
+    height: 128px;
+    width: 128px;
+}
+
+.your-stack {
+    background-image: url("../public/images/your-stack.png");
+    background-size: 128px;
+    height: 128px;
+    width: 128px;
 }

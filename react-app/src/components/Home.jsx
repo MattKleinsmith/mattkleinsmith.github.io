@@ -34,7 +34,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   I'm a full-stack developer
                 </h2>
                 <p className="text-5 text-light mb-4">
-                  based in Kansas City, Missouri.
+                  open to work and volunteering, and based in Kansas City, Missouri.
                 </p>
                 <a
                   href="#contact"
@@ -44,7 +44,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                     handleNavClick("contact");
                   }}
                 >
-                  Hire Me
+                  Message Me
                 </a>
               </div>
             </div>
