@@ -63,8 +63,15 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               href="https://mattkleinsmith.dev/"
               target="_blank"
               rel="noopener noreferrer"
+            >
+              <div className="text-6 font-weight-600 mb-4 text-white">Amazing</div>
+            </a>
+            <a
+              href="https://mattkleinsmith.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
             ><img className="img-fluid d-block portfolio-image" src="/images/amazing.png" alt="Amazing" /></a>
-            <div>Hello</div>
+            <div className="text-white mt-4">Hello</div>
 
           </div>
         </div>
