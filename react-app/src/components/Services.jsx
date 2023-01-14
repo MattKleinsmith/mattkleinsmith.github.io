@@ -34,8 +34,8 @@ const Services = ({ classicHeader, darkTheme }) => {
         <div className="row">
           <div className="col-lg-11 mx-auto">
             <div className="skills-flex">
-              {skills.map((skill, index) => (
-                <i className={skill} />
+              {skills.map((skill, i) => (
+                <i className={skill} key={i} />
               ))}
             </div>
           </div>
