@@ -41,10 +41,10 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   className="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2"
                   onClick={(e) => {
                     e.preventDefault();
-                    handleNavClick("contact");
+                    handleNavClick("services");
                   }}
                 >
-                  Message Me
+                  See my skills
                 </a>
               </div>
             </div>
