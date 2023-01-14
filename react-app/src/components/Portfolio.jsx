@@ -72,7 +72,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               rel="noopener noreferrer"
             ><img className="img-fluid d-block portfolio-image" src="/images/amazing.png" alt="Amazing" /></a>
 
-            <div className="text-white mt-4 mb-4">Amazing is a pixel-perfect Amazon clone.</div>
+            <div className="text-white mt-4 mb-4">Amazing is a pixel-perfect Amazon clone. It was a solo project.</div>
 
             <span className="text-white mt-4">Live demo: </span><a
               href="https://mattkleinsmith.dev/"
@@ -110,6 +110,59 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             </div>
 
 
+
+          </div>
+
+          <div className="mt-5">
+            <a
+              href="https://ducksy.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="text-6 font-weight-600 mb-4 text-white">Ducksy</div>
+            </a>
+            <a
+              href="https://ducksy.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><img className="img-fluid d-block portfolio-image" src="/images/ducksy.png" alt="Ducksy" /></a>
+
+            <div className="text-white mt-4 mb-4">Ducksy was a group project clone of Etsy.</div>
+
+            <span className="text-white mt-4">Live demo: </span><a
+              href="https://ducksy.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://ducksy.herokuapp.com/</a>
+
+            <div className="tech-stack mt-4">
+
+              <div>
+                <img alt="react" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+                <img alt="redux" className="ml-5px" src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" />
+              </div>
+
+              <img alt="flask" className="tech-badge-flask" src="https://img.shields.io/badge/flask⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-%23000000.svg?style=for-the-badge&logo=flask&logoColor=%23FFFFFF" />
+
+              <div>
+
+                <img alt="sql alchemy" src="https://img.shields.io/badge/sqlalchemy⠀⠀⠀⠀-424242?style=for-the-badge&logo=academia&logoColor=d71f00" />
+                <img alt="gunicorn" className="ml-5px" src="https://img.shields.io/badge/gunicorn⠀-%23FFFFFF.svg?style=for-the-badge&logo=gunicorn&logoColor=%23298629" />
+              </div>
+
+              <div>
+                <img alt="postgres" src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+                <img alt="python" className="ml-5px" src="https://img.shields.io/badge/python⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-376c99?style=for-the-badge&logo=python&logoColor=f7d34b" />
+                <img alt="aws cloudfornt" className="ml-5px" src="https://img.shields.io/badge/AWS_CLOUDFRONT-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
+              </div>
+
+              <div>
+                <img alt="amazon linux 2" src="https://img.shields.io/badge/AMAZON_LINUX_2_(EC2_instance)⠀⠀⠀-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
+                <img alt="aws s3" className="ml-5px" src="https://img.shields.io/badge/AWS_S3⠀⠀⠀⠀⠀⠀⠀⠀⠀-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
+              </div>
+
+            </div>
 
           </div>
         </div>

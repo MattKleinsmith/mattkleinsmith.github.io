@@ -40,6 +40,9 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             <p className={darkTheme ? "text-white-50" : ""}>
               I have a passion for fast apps. As a user and customer, I'd rather use a fast unstyled app, than a beautiful but sluggish app. This motivates me as an engineer to track down inefficiencies to enable beauty, without making the user wait. I consider loading times to be errors.
             </p>
+            <p className={darkTheme ? "text-white-50" : ""}>
+              I am open to remote work, and remote volunteering.
+            </p>
           </div>
           {/* About me content end */}
           {/* about me personal detials start */}
