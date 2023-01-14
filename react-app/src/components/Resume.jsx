@@ -46,7 +46,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
   return (
     <section
       id="resume"
-      className={"section " + (darkTheme ? "bg-dark-1" : "")}
+      className={"section " + (darkTheme ? "bg-dark-2" : "")}
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
@@ -141,9 +141,11 @@ const Resume = ({ classicHeader, darkTheme }) => {
         </div>
         <div className="text-center mt-5">
           <a
-            className="btn btn-outline-secondary rounded-pill shadow-none"
+            className="btn btn-outline-primary rounded-pill shadow-none"
             href="https://ducksybucket.s3.amazonaws.com/Matthew+Kleinsmith+-+Resume.pdf"
             download
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Download CV
             <span className="ms-1">

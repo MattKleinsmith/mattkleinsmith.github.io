@@ -6,7 +6,7 @@ const Services = ({ classicHeader, darkTheme }) => {
   return (
     <section
       id="services"
-      className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}
+      className={"section " + (darkTheme ? "bg-dark-1" : "bg-light")}
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}

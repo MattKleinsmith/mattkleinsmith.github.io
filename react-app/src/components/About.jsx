@@ -35,7 +35,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I'm <span className="text-primary">Matt Kleinsmith</span>, a full-stack developer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I've worked mostly with React, Express, Flask (Python), and AWS, but I can learn any stack quickly; it's all data transforms at the end of the day.
+              I'm a recent App Academy grad and I work with React, Redux, Node, Flask (Python), and AWS. I can learn any new stack quickly, though. It's all data transforms at the end of the day.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
               I have a passion for fast apps. As a user and customer, I'd rather use a fast unstyled app, than a beautiful but sluggish app. This motivates me as an engineer to track down inefficiencies to enable beauty, without making the user wait. I consider loading times to be errors.
@@ -66,6 +66,8 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 href="https://ducksybucket.s3.amazonaws.com/Matthew+Kleinsmith+-+Resume.pdf"
                 download
                 className="btn btn-primary rounded-pill"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Download CV
               </a>
