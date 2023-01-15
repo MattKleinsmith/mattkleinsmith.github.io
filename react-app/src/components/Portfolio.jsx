@@ -91,7 +91,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               <img alt="flask" className="tech-badge-flask" src="https://img.shields.io/badge/flask⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-%23000000.svg?style=for-the-badge&logo=flask&logoColor=%23FFFFFF" />
 
               <div>
-
                 <img alt="sql alchemy" src="https://img.shields.io/badge/sqlalchemy⠀⠀⠀⠀-626262?style=for-the-badge&logo=academia&logoColor=d71f00" />
                 <img alt="gunicorn" className="ml-5px" src="https://img.shields.io/badge/gunicorn⠀-%23FFFFFF.svg?style=for-the-badge&logo=gunicorn&logoColor=%23298629" />
               </div>
@@ -134,7 +133,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://ducksy.herokuapp.com/</a>
+              https://ducksy.herokuapp.com</a>
 
             <div className="tech-stack mt-4">
 
@@ -144,7 +143,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               </div>
 
               <div>
-
                 <img alt="sql alchemy" src="https://img.shields.io/badge/sqlalchemy⠀⠀⠀⠀-626262?style=for-the-badge&logo=academia&logoColor=d71f00" />
                 <img alt="flask" className="ml-5px" src="https://img.shields.io/badge/flask⠀⠀⠀⠀⠀-%23000000.svg?style=for-the-badge&logo=flask&logoColor=%23FFFFFF" />
               </div>
@@ -158,6 +156,56 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               <div>
                 <img alt="heroku" src="https://img.shields.io/badge/heroku⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-79589f.svg?style=for-the-badge&logo=heroku&logoColor=FFFFFF" />
                 <img alt="aws s3" className="ml-5px" src="https://img.shields.io/badge/AWS_S3⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
+              </div>
+
+            </div>
+
+          </div>
+
+          <div className="mt-5">
+            <a
+              href="https://mattblock.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="text-6 font-weight-600 mb-4 text-white">Mattblock</div>
+            </a>
+            <a
+              href="https://mattblock.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><img className="img-fluid d-block portfolio-image" src="/images/mattblock.png" alt="Mattblock" /></a>
+
+            <div className="text-white mt-4 mb-4">Mattblock is a browser-based online video game. </div>
+
+            <span className="text-white mt-4">Live demo: </span><a
+              href="https://mattblock.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://mattblock.io</a>
+
+            <div className="tech-stack mt-4">
+
+              <div>
+                <img alt="react" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+                <img alt="redux" className="ml-5px" src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" />
+              </div>
+
+              <div>
+                <img alt="sql alchemy" src="https://img.shields.io/badge/sqlalchemy⠀⠀⠀⠀-626262?style=for-the-badge&logo=academia&logoColor=d71f00" />
+                <img alt="flask" className="ml-5px" src="https://img.shields.io/badge/flask⠀⠀⠀⠀⠀-%23000000.svg?style=for-the-badge&logo=flask&logoColor=%23FFFFFF" />
+              </div>
+
+              <div>
+                <img alt="postgres" src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+                <img alt="python" className="ml-5px" src="https://img.shields.io/badge/python⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-376c99?style=for-the-badge&logo=python&logoColor=f7d34b" />
+                <img alt="aws cloudfornt" className="ml-5px" src="https://img.shields.io/badge/AWS_CLOUDFRONT-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
+              </div>
+
+              <div>
+                <img alt="heroku" src="https://img.shields.io/badge/JavaScript⠀⠀⠀⠀⠀⠀-323330.svg?style=for-the-badge&logo=javascript&logoColor=f0db4f" />
+                <img alt="websockets" className="ml-5px" src="https://img.shields.io/badge/websockets-%23232f3e.svg?style=for-the-badge&logo=websockets&logoColor=ec912d" />
               </div>
 
             </div>
