@@ -38,7 +38,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I'm a recent App Academy grad with experience in React, Redux, Node, Flask (Python), and AWS. I can learn any stack quickly. It's all data transforms at the end of the day.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I have a passion for fast apps. As a user and customer, I'd rather use a fast unstyled app, than a beautiful but sluggish app. This motivates me as an engineer to track down inefficiencies to enable beauty, without making the user wait. I consider loading times to be errors.
+              I have a passion for fast apps. As a user and customer, I'd rather use a fast unstyled app, than a beautiful but sluggish app. This motivates me as an engineer to track down inefficiencies to enable beauty without making the user wait. I consider loading times to be errors.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
               I am open to remote work, and remote volunteering.
