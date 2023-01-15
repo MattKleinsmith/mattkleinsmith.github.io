@@ -188,24 +188,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             <div className="tech-stack mt-4">
 
               <div>
-                <img alt="react" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
-                <img alt="redux" className="ml-5px" src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" />
-              </div>
-
-              <div>
-                <img alt="sql alchemy" src="https://img.shields.io/badge/sqlalchemy⠀⠀⠀⠀-626262?style=for-the-badge&logo=academia&logoColor=d71f00" />
-                <img alt="flask" className="ml-5px" src="https://img.shields.io/badge/flask⠀⠀⠀⠀⠀-%23000000.svg?style=for-the-badge&logo=flask&logoColor=%23FFFFFF" />
-              </div>
-
-              <div>
-                <img alt="postgres" src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
-                <img alt="python" className="ml-5px" src="https://img.shields.io/badge/python⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-376c99?style=for-the-badge&logo=python&logoColor=f7d34b" />
-                <img alt="aws cloudfornt" className="ml-5px" src="https://img.shields.io/badge/AWS_CLOUDFRONT-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
-              </div>
-
-              <div>
-                <img alt="heroku" src="https://img.shields.io/badge/JavaScript⠀⠀⠀⠀⠀⠀-323330.svg?style=for-the-badge&logo=javascript&logoColor=f0db4f" />
-                <img alt="websockets" className="ml-5px" src="https://img.shields.io/badge/websockets-%23232f3e.svg?style=for-the-badge&logo=websockets&logoColor=ec912d" />
+                <img alt="javascript" src="https://img.shields.io/badge/JavaScript⠀⠀⠀⠀⠀⠀-323330.svg?style=for-the-badge&logo=javascript&logoColor=f0db4f" />
+                <img alt="websockets" className="ml-5px" src="https://img.shields.io/badge/websockets-232f3e.svg?style=for-the-badge&logo=websockets&logoColor=ec912d" />
               </div>
 
             </div>

@@ -12,7 +12,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2017",
       title: "University of San Francisco",
       place: "Deep Learning Part II Certificate",
-      desc: "Machine learning. Bonus: Wrote an article on neural networks that was used in an O'reilly book.",
+      desc: "",
     },
     {
       yearRange: "2013 - 2016",
@@ -100,7 +100,10 @@ const Resume = ({ classicHeader, darkTheme }) => {
                     {value.place}
                   </p>
                   <p className={"mb-0 " + (darkTheme ? "text-white-50" : "")}>
-                    {value.desc}
+                    {value.desc && value.desc}
+                    {!value.desc && <>Machine learning. Bonus: Wrote <a target="_blank"
+                      rel="noopener noreferrer" href="https://medium.com/impactai/cnns-from-different-viewpoints-fab7f52d159c">an article on neural networks</a> that was used in <a target="_blank"
+                        rel="noopener noreferrer" href="https://www.oreilly.com/library/view/deep-learning-for/9781492045519/">an O'Reilly book.</a></>}
                   </p>
                 </div>
               ))}
