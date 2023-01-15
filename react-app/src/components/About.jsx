@@ -19,7 +19,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-white" : "text-dark")
             }
           >
-            Know Me More
+            Get To Know Me More
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -32,7 +32,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Matt Kleinsmith</span>, a full-stack developer
+              I'm <span className="text-primary">Matt Kleinsmith</span>, a full-stack software engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
               I'm a recent App Academy grad with experience in React, Redux, Node, Flask (Python), and AWS. I can learn any stack quickly. It's all data transforms at the end of the day.

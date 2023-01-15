@@ -31,7 +31,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
               <div className="col-12 text-center">
                 <p className="text-7 fw-500 text-white mb-2 mb-md-3">Welcome</p>
                 <h2 className="text-16 fw-600 text-white mb-2 mb-md-3">
-                  I'm a full-stack developer
+                  I'm a full-stack engineer
                 </h2>
                 <p className="text-5 text-light mb-4">
                   open to work and volunteering, and based in Kansas City, Missouri.
