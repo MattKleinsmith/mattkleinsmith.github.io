@@ -3,43 +3,43 @@ import React from "react";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2000 - 2004",
-      title: "Computer Science",
-      place: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2022 - 2023",
+      title: "App Academy",
+      place: "Full-Stack Software Engineering",
+      desc: "Web development bootcamp with 1000-hour curriculum and < 5% acceptance rate.",
     },
     {
-      yearRange: "2005 - 2008",
-      title: "Bachelor Degree",
-      place: "University of California",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2017",
+      title: "University of San Francisco",
+      place: "Deep Learning Part II Certificate",
+      desc: "Machine learning. Bonus: Wrote an article on neural networks that was used in an O'reilly book.",
     },
     {
-      yearRange: "2009 - 2012",
-      title: "Master Degree",
-      place: "Harvard University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2013 - 2016",
+      title: "University of California, San Diego",
+      place: "Mathematics",
+      desc: "Incomplete Bachelor’s. I left my senior year to study machine learning full-time.",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2012 - 2013",
-      title: "Jr. UI UX Designer",
-      place: "Themeforest",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2020 - 2022",
+      title: "Game Developer",
+      place: "Imagination Fountain",
+      desc: "Designed and developed a first-person shooter with online multiplayer, where players’ bullets created a trail of interactive geometry in real time.",
     },
     {
-      yearRange: "2014 - 2016",
-      title: "Jr. Product Designer",
-      place: "Dribbble",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2015 - 2016",
+      title: "Data Scientist and Marketer",
+      place: "WriteLab (acquired by Chegg)",
+      desc: "Developed WriteLab’s Concision feature using Google’s N-gram dataset. ",
     },
     {
-      yearRange: "2017 - 2019",
-      title: "Product Designer",
-      place: "Adobe",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2014",
+      title: "Machine Learning Engineer",
+      place: "WriteLab (acquired by Chegg)",
+      desc: "Developed & maintained a machine learning pipeline, from data collection to model selection.",
     },
   ];
 
