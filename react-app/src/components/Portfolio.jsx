@@ -92,7 +92,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
               <div>
 
-                <img alt="sql alchemy" src="https://img.shields.io/badge/sqlalchemy⠀⠀⠀⠀-424242?style=for-the-badge&logo=academia&logoColor=d71f00" />
+                <img alt="sql alchemy" src="https://img.shields.io/badge/sqlalchemy⠀⠀⠀⠀-626262?style=for-the-badge&logo=academia&logoColor=d71f00" />
                 <img alt="gunicorn" className="ml-5px" src="https://img.shields.io/badge/gunicorn⠀-%23FFFFFF.svg?style=for-the-badge&logo=gunicorn&logoColor=%23298629" />
               </div>
 
@@ -103,8 +103,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               </div>
 
               <div>
-                <img alt="amazon linux 2" src="https://img.shields.io/badge/AMAZON_LINUX_2_(EC2_instance)⠀⠀⠀-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
-                <img alt="aws s3" className="ml-5px" src="https://img.shields.io/badge/AWS_S3⠀⠀⠀⠀⠀⠀⠀⠀⠀-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
+                <img alt="amazon linux 2" src="https://img.shields.io/badge/AMAZON_LINUX_2_(EC2)⠀⠀⠀⠀⠀⠀⠀-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
+                <img alt="aws s3" className="ml-5px" src="https://img.shields.io/badge/AWS_S3⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
               </div>
 
             </div>
@@ -127,7 +127,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               rel="noopener noreferrer"
             ><img className="img-fluid d-block portfolio-image" src="/images/ducksy.png" alt="Ducksy" /></a>
 
-            <div className="text-white mt-4 mb-4">Ducksy was a group project clone of Etsy.</div>
+            <div className="text-white mt-4 mb-4">Ducksy is a clone of Etsy. It was a group project.</div>
 
             <span className="text-white mt-4">Live demo: </span><a
               href="https://ducksy.herokuapp.com/"
@@ -143,12 +143,10 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                 <img alt="redux" className="ml-5px" src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" />
               </div>
 
-              <img alt="flask" className="tech-badge-flask" src="https://img.shields.io/badge/flask⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-%23000000.svg?style=for-the-badge&logo=flask&logoColor=%23FFFFFF" />
-
               <div>
 
-                <img alt="sql alchemy" src="https://img.shields.io/badge/sqlalchemy⠀⠀⠀⠀-424242?style=for-the-badge&logo=academia&logoColor=d71f00" />
-                <img alt="gunicorn" className="ml-5px" src="https://img.shields.io/badge/gunicorn⠀-%23FFFFFF.svg?style=for-the-badge&logo=gunicorn&logoColor=%23298629" />
+                <img alt="sql alchemy" src="https://img.shields.io/badge/sqlalchemy⠀⠀⠀⠀-626262?style=for-the-badge&logo=academia&logoColor=d71f00" />
+                <img alt="flask" className="ml-5px" src="https://img.shields.io/badge/flask⠀⠀⠀⠀⠀-%23000000.svg?style=for-the-badge&logo=flask&logoColor=%23FFFFFF" />
               </div>
 
               <div>
@@ -158,8 +156,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               </div>
 
               <div>
-                <img alt="amazon linux 2" src="https://img.shields.io/badge/AMAZON_LINUX_2_(EC2_instance)⠀⠀⠀-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
-                <img alt="aws s3" className="ml-5px" src="https://img.shields.io/badge/AWS_S3⠀⠀⠀⠀⠀⠀⠀⠀⠀-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
+                <img alt="heroku" src="https://img.shields.io/badge/heroku⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-79589f.svg?style=for-the-badge&logo=heroku&logoColor=FFFFFF" />
+                <img alt="aws s3" className="ml-5px" src="https://img.shields.io/badge/AWS_S3⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
               </div>
 
             </div>
