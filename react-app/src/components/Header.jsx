@@ -69,6 +69,23 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   style={{ cursor: "pointer" }}
                   activeClass="active"
                   spy
+                  to="about"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setIsNavModalClose(true);
+                  }}
+                >
+                  About Me
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link "
+                  smooth
+                  duration={500}
+                  style={{ cursor: "pointer" }}
+                  activeClass="active"
+                  spy
                   to="services"
                   onClick={(e) => {
                     e.preventDefault();
@@ -93,23 +110,6 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   }}
                 >
                   Portfolio
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
-                  to="about"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                  About Me
                 </Link>
               </li>
               <li className="nav-item">

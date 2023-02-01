@@ -24,6 +24,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
           </p>
         </div>
         {/* Heading end*/}
+
         <div className="row gy-5">
           {/* About me content start */}
           <div className="col-lg-7 col-xl-8 text-center text-lg-start">
@@ -35,13 +36,19 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I'm <span className="text-primary">Matt Kleinsmith</span>, a full-stack software engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I'm a recent App Academy grad with experience in React, Redux, Node, Flask (Python), and AWS. I can learn any stack quickly. It's all data transforms at the end of the day.
+              I'm a recent App Academy graduate. During this intensive, six-month coding bootcamp, I built three full-stack web apps using React, Node, Python, AWS, and other tech. I can learn any stack quickly, because it's all data transforms at the end of the day.
             </p>
+
             <p className={darkTheme ? "text-white-50" : ""}>
-              I have a passion for fast apps. As a user and customer, I'd rather use a fast unstyled app, than a beautiful but sluggish app. This motivates me as an engineer to track down inefficiencies to enable beauty without making the user wait. I consider loading times to be errors.
+              During App Academy, I realized how much more energetic and meaningful coding can be when working with other coders. The group project was my favorite part of the program.
             </p>
+
             <p className={darkTheme ? "text-white-50" : ""}>
-              I am open to remote work, and remote volunteering.
+              Before becoming a web developer, I worked as a video game developer. Here I honed an eye and heart for speed and usability. Video games have to be fast, and they have to be so usable that they're fun.
+            </p>
+
+            <p className={darkTheme ? "text-white-50" : ""}>
+              I'm open to work and volunteering, including remote.
             </p>
           </div>
           {/* About me content end */}

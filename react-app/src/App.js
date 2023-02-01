@@ -73,33 +73,33 @@ function App() {
               classicHeader={classicHeader}
               darkTheme={darkTheme}
               handleNavClick={handleNavClick}
-            ></Home>
-            <Services
-              classicHeader={classicHeader}
-              darkTheme={darkTheme}
-            ></Services>
-            <Portfolio
-              classicHeader={classicHeader}
-              darkTheme={darkTheme}
-            ></Portfolio>
+            />
             <AboutUs
               classicHeader={classicHeader}
               darkTheme={darkTheme}
-            ></AboutUs>
+            />
+            <Services
+              classicHeader={classicHeader}
+              darkTheme={darkTheme}
+            />
+            <Portfolio
+              classicHeader={classicHeader}
+              darkTheme={darkTheme}
+            />
             <Resume
               classicHeader={classicHeader}
               darkTheme={darkTheme}
-            ></Resume>
+            />
             <Contact
               classicHeader={classicHeader}
               darkTheme={darkTheme}
-            ></Contact>
+            />
           </div>
           <Footer
             classicHeader={classicHeader}
             darkTheme={darkTheme}
             handleNavClick={handleNavClick}
-          ></Footer>
+          />
         </div>
         {/* back to top */}
         <Tooltip text="Back to Top" placement="left">

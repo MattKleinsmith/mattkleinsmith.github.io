@@ -34,17 +34,17 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   I'm a full-stack engineer
                 </h2>
                 <p className="text-5 text-light mb-4">
-                  open to work and volunteering, and based in Kansas City, Missouri.
+                  Teams energize me, loading times bother me, and I'm open for work and volunteering.
                 </p>
                 <a
                   href="#contact"
                   className="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2"
                   onClick={(e) => {
                     e.preventDefault();
-                    handleNavClick("services");
+                    handleNavClick("about");
                   }}
                 >
-                  See my skills
+                  Get to know me
                 </a>
               </div>
             </div>
