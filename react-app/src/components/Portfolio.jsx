@@ -72,7 +72,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               rel="noopener noreferrer"
             ><img className="img-fluid d-block portfolio-image" src="/images/amazing.png" alt="Amazing" /></a>
 
-            <div className="text-white mt-4 mb-4">Amazing is a pixel-perfect Amazon clone. It was a solo project.</div>
+            <div className="text-white mt-4 mb-4">Amazing is a pixel-perfect Amazon clone. I chose to clone Amazon as my solo capstone project because of how detailed Amazon is. I wanted to push myself and to be able to add more and more features during the job search, while maintaining a pixel-perfect standard.</div>
 
             <span className="text-white mt-4">Live demo: </span><a
               href="https://mattkleinsmith.dev/"
@@ -126,7 +126,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               rel="noopener noreferrer"
             ><img className="img-fluid d-block portfolio-image" src="/images/ducksy.png" alt="Ducksy" /></a>
 
-            <div className="text-white mt-4 mb-4">Ducksy is a clone of Etsy. It was a group project.</div>
+            <div className="text-white mt-4 mb-4">Ducksy is a clone of Etsy. It was a group project. We chose to clone Etsy to focus on e-commerce, and because we liked the style of the site. We had a good time working together. Props to <a target="_blank"
+              rel="noopener noreferrer" href="https://huishi329.github.io/my-portfolio/">Huishi An</a> and <a target="_blank"
+                rel="noopener noreferrer" href="https://github.com/jadevie">Jade Tran</a>.</div>
 
             <span className="text-white mt-4">Live demo: </span><a
               href="https://ducksy.herokuapp.com/"
@@ -176,7 +178,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               rel="noopener noreferrer"
             ><img className="img-fluid d-block portfolio-image" src="/images/mattblock.png" alt="Mattblock" /></a>
 
-            <div className="text-white mt-4 mb-4">Mattblock is a browser-based online video game. </div>
+            <div className="text-white mt-4 mb-4">Mattblock is a browser-based online video game. I made this game to push my raw JavaScript ability farther. I added WebSockets to make the game multiplayer, and therefore more fun. My favorite part of this app is that you can use it immediately. No required sign in, no information panel blocking use, no loading times.</div>
 
             <span className="text-white mt-4">Live demo: </span><a
               href="https://mattblock.io/"
