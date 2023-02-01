@@ -27,19 +27,19 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2020 - 2022",
       title: "Game Developer",
       place: "Imagination Fountain",
-      desc: "Designed and developed a first-person shooter with online multiplayer, where players’ bullets created a trail of interactive geometry in real time.",
+      desc: "Used C# to develop a first-person shooter with online multiplayer, where players’ bullets created a trail of interactive geometry in real time. This required simulating and rendering tens of thousands of objects in real-time. Fast code!",
     },
     {
       yearRange: "2015 - 2016",
       title: "Data Scientist and Marketer",
       place: "WriteLab (acquired by Chegg)",
-      desc: "Developed WriteLab’s Concision feature using Google’s N-gram dataset. ",
+      desc: "Used Python to develop a feature that suggested edits to writers' sentences, which turned out to be the most used feature.",
     },
     {
       yearRange: "2014",
       title: "Machine Learning Engineer",
       place: "WriteLab (acquired by Chegg)",
-      desc: "Developed & maintained a machine learning pipeline, from data collection to model selection.",
+      desc: "Used Python to develop a data annotation tool, which increased training dataset growth by 1000%.",
     },
   ];
 
