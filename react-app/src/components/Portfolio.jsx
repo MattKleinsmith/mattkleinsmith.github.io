@@ -88,6 +88,15 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             >
               https://mattkleinsmith.dev</a>
 
+            <p></p>
+
+            <span className="text-white mt-4">GitHub repo: </span><a
+              href="https://github.com/MattKleinsmith/amazing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/MattKleinsmith/amazing</a>
+
             <div className="tech-stack mt-4">
 
               <div>
@@ -153,6 +162,15 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             >
               https://ducksy.herokuapp.com</a>
 
+            <p></p>
+
+            <span className="text-white mt-4">GitHub repo: </span><a
+              href="https://github.com/MattKleinsmith/ducksy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/MattKleinsmith/ducksy</a>
+
             <div className="tech-stack mt-4">
 
               <div>
@@ -207,6 +225,15 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               rel="noopener noreferrer"
             >
               https://mattblock.io</a>
+
+            <p></p>
+
+            <span className="text-white mt-4">GitHub repo: </span><a
+              href="https://github.com/MattKleinsmith/mattblock"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/MattKleinsmith/mattblock</a>
 
             <div className="tech-stack mt-4">
 
