@@ -34,7 +34,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   I'm a full-stack engineer
                 </h2>
                 <p className="text-5 text-light mb-4">
-                  Teams energize me, loading times bother me, and I'm open to work and volunteering.
+                  Teams energize me, loading times in my apps bother me, and I'm open to work and volunteering.
                 </p>
                 <a
                   href="#contact"
