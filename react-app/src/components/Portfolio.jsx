@@ -130,6 +130,54 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
           <div className="mt-5">
             <a
+              href="https://mattblock.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="text-6 font-weight-600 mb-4 text-white">Mattblock</div>
+            </a>
+            <a
+              href="https://mattblock.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><img className="img-fluid d-block portfolio-image" src="/images/mattblock.png" alt="Mattblock" /></a>
+            <p></p>
+            <a
+              href="https://mattblock.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><img className="img-fluid d-block portfolio-image" src="/images/mattblock_small.gif" alt="Mattblock" /></a>
+            <div className="text-white mt-4 mb-4">Mattblock is a browser-based online video game. I made this game to push my raw JavaScript ability farther. I added WebSockets to make the game multiplayer, and therefore more fun. My favorite part of this app is that you can use it immediately. No required sign in, no information panel blocking use, no loading times.</div>
+
+            <span className="text-white mt-4">Live demo: </span><a
+              href="https://mattblock.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://mattblock.io</a>
+
+            <p></p>
+
+            <span className="text-white mt-4">GitHub repo: </span><a
+              href="https://github.com/MattKleinsmith/mattblock"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/MattKleinsmith/mattblock</a>
+
+            <div className="tech-stack mt-4">
+
+              <div>
+                <img alt="javascript" src="https://img.shields.io/badge/JavaScript⠀⠀⠀⠀⠀⠀-323330.svg?style=for-the-badge&logo=javascript&logoColor=f0db4f" />
+                <img alt="websockets" className="ml-5px" src="https://img.shields.io/badge/websockets-232f3e.svg?style=for-the-badge&logo=websockets&logoColor=ec912d" />
+              </div>
+
+            </div>
+
+          </div>
+
+          <div className="mt-5">
+            <a
               href="https://ducksy.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -192,54 +240,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               <div>
                 <img alt="heroku" src="https://img.shields.io/badge/heroku⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-79589f.svg?style=for-the-badge&logo=heroku&logoColor=FFFFFF" />
                 <img alt="aws s3" className="ml-5px" src="https://img.shields.io/badge/AWS_S3⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-%23232f3e.svg?style=for-the-badge&logo=amazonaws&logoColor=ec912d" />
-              </div>
-
-            </div>
-
-          </div>
-
-          <div className="mt-5">
-            <a
-              href="https://mattblock.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="text-6 font-weight-600 mb-4 text-white">Mattblock</div>
-            </a>
-            <a
-              href="https://mattblock.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-            ><img className="img-fluid d-block portfolio-image" src="/images/mattblock.png" alt="Mattblock" /></a>
-            <p></p>
-            <a
-              href="https://mattblock.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-            ><img className="img-fluid d-block portfolio-image" src="/images/mattblock_small.gif" alt="Mattblock" /></a>
-            <div className="text-white mt-4 mb-4">Mattblock is a browser-based online video game. I made this game to push my raw JavaScript ability farther. I added WebSockets to make the game multiplayer, and therefore more fun. My favorite part of this app is that you can use it immediately. No required sign in, no information panel blocking use, no loading times.</div>
-
-            <span className="text-white mt-4">Live demo: </span><a
-              href="https://mattblock.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              https://mattblock.io</a>
-
-            <p></p>
-
-            <span className="text-white mt-4">GitHub repo: </span><a
-              href="https://github.com/MattKleinsmith/mattblock"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              https://github.com/MattKleinsmith/mattblock</a>
-
-            <div className="tech-stack mt-4">
-
-              <div>
-                <img alt="javascript" src="https://img.shields.io/badge/JavaScript⠀⠀⠀⠀⠀⠀-323330.svg?style=for-the-badge&logo=javascript&logoColor=f0db4f" />
-                <img alt="websockets" className="ml-5px" src="https://img.shields.io/badge/websockets-232f3e.svg?style=for-the-badge&logo=websockets&logoColor=ec912d" />
               </div>
 
             </div>
