@@ -33,22 +33,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Matt Kleinsmith</span>, a full-stack software engineer
+              I'm <span className="text-primary">Matt Kleinsmith</span>, a full-stack software engineer.
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I'm a recent App Academy graduate. During this intensive, six-month coding bootcamp, I built three full-stack web apps using React, Node, Python, AWS, and other tech. I can learn any stack quickly, because it's all data transforms at the end of the day.
+              I build web apps. I'm strongest with React-Python-Postgres-AWS, and I love learning new technology. I'm most excited about React Native to target multiple platforms, GraphQL to add flexibility to the server, Relay to prevent over- and under-fetching, and Rust to write super fast servers.
             </p>
 
             <p className={darkTheme ? "text-white-50" : ""}>
-              During App Academy, I realized how much more energetic and meaningful coding can be when working with other coders. The group project was my favorite part of the program.
-            </p>
-
-            <p className={darkTheme ? "text-white-50" : ""}>
-              Before becoming a web developer, I worked as a video game developer. Here I honed an eye and heart for speed and usability. Video games have to be fast, and they have to be so usable that they're fun.
-            </p>
-
-            <p className={darkTheme ? "text-white-50" : ""}>
-              I'm open to work and volunteering, including remote.
+              Right now, I'm looking for a job while having fun upgrading old projects with new tech. I'm willing to relocate anywhere in the US and Canada, and I'm currently in Kansas City, Missouri, United States. I'm a U.S. Citizen.
             </p>
           </div>
           {/* About me content end */}
@@ -101,25 +93,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>2023</span>
+                  <span>3+</span>
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Coding bootcamp graduate
-                </p>
-              </div>
-            </div>
-            <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>1000+</span>
-                </h4>
-                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  hours of experience
+                  years of software experience
                 </p>
               </div>
             </div>
