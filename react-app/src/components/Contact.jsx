@@ -93,7 +93,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
-              925-457-2959
+              1-925-457-2959
             </p>
             <p className={"text-3 mb-3 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2 discord-parent">

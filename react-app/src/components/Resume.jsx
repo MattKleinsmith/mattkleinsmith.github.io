@@ -13,13 +13,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       title: "University of San Francisco",
       place: "Deep Learning Part II Certificate",
       desc: "",
-    },
-    {
-      yearRange: "2013 - 2016",
-      title: "University of California, San Diego",
-      place: "Mathematics",
-      desc: "Incomplete Bachelor’s. I left my senior year to study machine learning full-time.",
-    },
+    }
   ];
 
   const experienceDetails = [
@@ -27,7 +21,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2020 - 2022",
       title: "Game Developer",
       place: "Imagination Fountain",
-      desc: "Used C# to develop a first-person shooter with online multiplayer, where players’ bullets created a trail of interactive geometry in real time. This required simulating and rendering tens of thousands of objects in real-time. Fast code!",
+      desc: "Used C# to develop a first-person shooter with online multiplayer, where players’ bullets created a trail of interactive geometry in real time. This required simulating and rendering tens of thousands of 3D objects in real time. Fast code!",
     },
     {
       yearRange: "2015 - 2016",
@@ -40,6 +34,12 @@ const Resume = ({ classicHeader, darkTheme }) => {
       title: "Machine Learning Engineer",
       place: "WriteLab (acquired by Chegg)",
       desc: "Used Python to develop a data annotation tool, which increased training dataset growth by 1000%.",
+    },
+    {
+      yearRange: "2014",
+      title: "Mathematics Researcher",
+      place: "UC San Diego Summer Research Program",
+      desc: "I studied and then researched automata theory under Dr. Mia Minnes. I used Python to explore mathematical concepts.",
     },
   ];
 
