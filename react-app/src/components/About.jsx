@@ -33,14 +33,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Matt Kleinsmith</span>, a full-stack software engineer.
+              I'm <span className="text-primary">Matt Kleinsmith</span>, and I build web apps.
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I build web apps. I'm strongest with React-Python-Postgres-AWS, and I love learning new technology. I'm most excited about React Native to target multiple platforms, GraphQL to add flexibility to the server, Relay to prevent over- and under-fetching, and Rust to write super fast servers.
+              I'm strongest with React-Python-Postgres-AWS, and I love learning new technology. I'm most excited about React Native to target multiple platforms, GraphQL to add flexibility to the server, Relay to prevent over- and under-fetching, and Rust to write super fast servers.
             </p>
 
             <p className={darkTheme ? "text-white-50" : ""}>
-              Right now, I'm looking for a job while having fun upgrading projects with exciting tech. I'm willing to relocate anywhere in the U.S. and Canada, I'm currently in Kansas City, Missouri, and I'm a U.S. Citizen.
+              Right now, I'm looking for a job while having fun upgrading projects with exciting tech. I'm willing to relocate anywhere in the U.S. and Canada; I'm currently in Kansas City, Missouri; and I'm a U.S. Citizen.
             </p>
           </div>
           {/* About me content end */}
