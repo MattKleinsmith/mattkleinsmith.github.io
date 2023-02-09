@@ -40,7 +40,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             </p>
 
             <p className={darkTheme ? "text-white-50" : ""}>
-              Right now, I'm looking for a job while having fun upgrading old projects with new tech. I'm willing to relocate anywhere in the US and Canada, and I'm currently in Kansas City, Missouri, United States. I'm a U.S. Citizen.
+              Right now, I'm looking for a job while having fun upgrading projects with exciting tech. I'm willing to relocate anywhere in the U.S. and Canada, I'm currently in Kansas City, Missouri, and I'm a U.S. Citizen.
             </p>
           </div>
           {/* About me content end */}
