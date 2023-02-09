@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.97e17c9b.css",
-    "main.js": "/static/js/main.dc4be180.js",
+    "main.js": "/static/js/main.8a9a3b37.js",
     "static/js/787.a539c539.chunk.js": "/static/js/787.a539c539.chunk.js",
     "static/media/sequelize.png": "/static/media/sequelize.91f58bc042160f38ae20.png",
     "static/media/docker.png": "/static/media/docker.bda47f2e37391d649a04.png",
@@ -16,11 +16,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.97e17c9b.css.map": "/static/css/main.97e17c9b.css.map",
-    "main.dc4be180.js.map": "/static/js/main.dc4be180.js.map",
+    "main.8a9a3b37.js.map": "/static/js/main.8a9a3b37.js.map",
     "787.a539c539.chunk.js.map": "/static/js/787.a539c539.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97e17c9b.css",
-    "static/js/main.dc4be180.js"
+    "static/js/main.8a9a3b37.js"
   ]
 }
