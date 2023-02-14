@@ -24,22 +24,40 @@ const Resume = ({ classicHeader, darkTheme }) => {
       desc: "Used C# to develop a first-person shooter with online multiplayer, where players’ bullets created a trail of interactive geometry in real time. This required simulating and rendering tens of thousands of 3D objects in real time. Fast code!",
     },
     {
+      yearRange: "2018 - 2020",
+      title: "Personal goal",
+      place: "My father died. I needed an intense personal goal to grieve.",
+      desc: "Competed in video game tournaments. Trained 14+ hours per day. 10 hours per day were with teammates. Placed Top 16 in a world tournament out of tens of thousands of competitors and millions of players. Designed an in-game player communication standard that was adopted by a coach who won multiple amateur world championships.",
+    },
+    {
+      yearRange: "2016 - 2018",
+      title: "AI self-directed study",
+      place: "Python, C, Arduino, Java, Android, Linux, PyTorch, deep learning",
+      desc: "Many projects and achievements. Please see resume.",
+    },
+    {
       yearRange: "2015 - 2016",
       title: "Data Scientist and Marketer",
       place: "WriteLab (acquired by Chegg)",
-      desc: "Used Python to develop a feature that suggested edits to writers' sentences, which turned out to be the most used feature.",
+      desc: "Developed a feature to help users make their documents more concise. For example, replacing the word “utilize” with the word “use”. Used Google’s N-gram dataset to ensure high quality suggestions.",
     },
     {
       yearRange: "2014",
       title: "Machine Learning Engineer",
       place: "WriteLab (acquired by Chegg)",
-      desc: "Used Python to develop a data annotation tool, which increased training dataset growth by 1000%.",
+      desc: "Used Python to develop a data annotation tool, which increased training dataset growth by 10x.",
     },
     {
       yearRange: "2014",
       title: "Mathematics Researcher",
-      place: "UC San Diego Summer Research Program",
-      desc: "I studied and then researched automata theory under Dr. Mia Minnes. I used Python to explore mathematical concepts.",
+      place: "University of California, San Diego",
+      desc: "Researched automata theory under Dr. Mia Minnes.",
+    },
+    {
+      yearRange: "2013 - 2014",
+      title: "Control Systems Programmer",
+      place: "University of California, San Diego",
+      desc: "Used LabVIEW to develop an application to control a thermal deposition system. Used MATLAB to study signals from SQUID arrays.",
     },
   ];
 
