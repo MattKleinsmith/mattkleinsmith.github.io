@@ -1,9 +1,9 @@
 import React from "react";
 
 const Services = ({ classicHeader, darkTheme }) => {
-  const skills = ["python", "javascript", "react", "redux", "postgres",
+  const skills = ["python", "javascript", "react", "relay", "graphql", "redux", "postgres",
     "node", "aws", "flask", "express", "sequelize", "sqlalchemy", "docker",
-    "linux", "ubuntu", "gunicorn", "your-stack"];
+    "linux", "ubuntu", "gunicorn", "playwright", "your-stack"];
 
   return (
     <section
